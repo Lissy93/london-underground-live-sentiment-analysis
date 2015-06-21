@@ -32,7 +32,7 @@ You should put it in a seperate file along with your other API keys and add file
 
 ### Make simple request
 ```javascript
-tflSentimentAnalysis.fetchTflSentiments(function(results){
+tflSentimentAnalysis.fetchTflSentiments(keys, function(results){
     console.log(results); // Do whatever with the results
 });
 ```

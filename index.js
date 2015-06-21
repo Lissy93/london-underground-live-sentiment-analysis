@@ -17,7 +17,7 @@ function fetchTflSentiments(keys, callback){
         sentimentAnalysis.fetchRoutes(twitterResults, keys.HP_API_KEY, function (sentimentResults) {
             results.push({line: line, sentiments: sentimentResults.aggregate.sentiment, score: sentimentResults.aggregate.score});
             if(tflLines.length>0) { fetchTflSentiments(keys, callback) } // Still lines left, recall method
-            else {  callback(results)  } // All done, call callback
+            else {  callback(keys, results)  } // All done, call callback
         });
     });
 }
