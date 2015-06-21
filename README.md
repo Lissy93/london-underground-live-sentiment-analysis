@@ -31,7 +31,8 @@ exports.TWITTER_API = {
 You should put it in a seperate file along with your other API keys and add file to your .gitignore
 
 ### Make simple request
-```tflSentimentAnalysis.fetchTflSentiments(function(results){
+```javascript
+tflSentimentAnalysis.fetchTflSentiments(function(results){
     console.log(results); // Do whatever with the results
 });
 ```
