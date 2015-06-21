@@ -1,0 +1,25 @@
+{
+  "name": "tfl-sentiment-analysis",
+  "version": "1.0.0",
+  "description": "A node modules that analyses recent Twitter feeds mentioning each London Underground line, and than uses HP IDOL OnDemand Sentiment Analysis to determine wheather overall each line is receiving positive or negetive tweets.",
+  "main": "index.js",
+  "dependencies": {
+    "q": "^1.4.1",
+    "request": "^2.58.0",
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tfl",
+    "twitter",
+    "hp",
+    "sentiment",
+    "analysis",
+    "AI"
+  ],
+  "author": "aliciasykes.com",
+  "license": "ISC"
+}
